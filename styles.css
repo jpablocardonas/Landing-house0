@@ -107,3 +107,21 @@ a{
     justify-content: center;
     margin: 20px 0 20px 0;
 }
+
+.precio{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(95,95,95);
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.valor{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: rgb(245, 138, 7);
+    font-size: 32px;
+    line-height: 27px;
+}
