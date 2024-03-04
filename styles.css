@@ -1,0 +1,109 @@
+html {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: rgb(8,72,135);
+    font-size: 24px;
+    line-height: 24px;
+    
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgb(8,72,135);
+}
+
+h2 { 
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    color: rgb(8,72,135);
+    font-size: 20px;
+    line-height: 24px;
+
+    margin-bottom: 1px;
+    border-bottom: 1px solid rgb(8,72,135);
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li{
+    width: 33.33%;
+    list-style-image: url(assets/circle-check-regular.svg);
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+ul li strong{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: black;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+#carrusel{
+    height: 50vh;
+    overflow: hidden;
+}
+
+.item-carrusel {
+    height: 100%;
+    position: relative;
+}
+
+img{
+    height: 100%;
+}
+
+.tarjeta-carrusel{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(245, 245, 245);
+}
+
+.flechas-carrusel{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+.mapa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
